@@ -1,21 +1,90 @@
-; This Source Code Form is subject to the terms of the Mozilla Public
-; License, v. 2.0. If a copy of the MPL was not distributed with this
-; file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-; This file is in the UTF-8 encoding
-[Strings]
-Title=Firefox Update
-Info=Firefox is installing your updates and will start in a few moments…
-MozillaMaintenanceDescription=The Mozilla Maintenance Service ensures that you have the latest and most secure version of Mozilla Firefox on your computer. Keeping Firefox up to date is very important for your online security, and Mozilla strongly recommends that you keep this service enabled.
-
-; IMPORTANT: This file should always start with a newline in case a locale
-; provided updater.ini does not end with a newline.
-; Application to launch after an update has been successfully applied. This
-; must be in the same directory or a sub-directory of the directory of the
-; application executable that initiated the software update.
-[PostUpdateWin]
-; ExeRelPath is the path to the PostUpdateWin executable relative to the
-; application executable.
-ExeRelPath=uninstall\helper.exe
-; ExeArg is the argument to pass to the PostUpdateWin exe
-ExeArg=/PostUpdate
+accessKey: ""
+attributeStyleMap: StylePropertyMap {size: 0}
+attributes: NamedNodeMap {0: href, 1: class, href: href, class: class, length: 2}
+autocapitalize: ""
+autofocus: false
+baseURI: "http://54.205.161.212:8080/"
+charset: ""
+childElementCount: 1
+childNodes: NodeList(2) [text, button.jenkins-menu-dropdown-chevron]
+children: HTMLCollection [button.jenkins-menu-dropdown-chevron]
+classList: DOMTokenList(3) ['jenkins-table__link', 'model-link', 'inside', value: 'jenkins-table__link model-link inside']
+className: "jenkins-table__link model-link inside"
+clientHeight: 14
+clientLeft: 0
+clientTop: 0
+clientWidth: 25
+contentEditable: "inherit"
+coords: ""
+dataset: DOMStringMap {}
+dir: ""
+download: ""
+draggable: true
+elementTiming: ""
+enterKeyHint: ""
+firstChild: text
+firstElementChild: button.jenkins-menu-dropdown-chevron
+hash: ""
+hidden: false
+host: "54.205.161.212:8080"
+hostname: "54.205.161.212"
+href: "http://54.205.161.212:8080/job/cicd/"
+hrefTranslate: ""
+hreflang: ""
+id: ""
+inert: false
+innerHTML: "cicd<button class=\"jenkins-menu-dropdown-chevron\"></button>"
+innerText: "cicd"
+inputMode: ""
+isConnected: true
+isContentEditable: false
+lang: ""
+lastChild: button.jenkins-menu-dropdown-chevron
+lastElementChild: button.jenkins-menu-dropdown-chevron
+localName: "a"
+name: ""
+namespaceURI: "http://www.w3.org/1999/xhtml"
+nodeName: "A"
+nodeType: 1
+nonce: ""
+offsetHeight: 14
+offsetLeft: 158
+offsetParent: body#jenkins.yui-skin-sam.two-column.jenkins-2.346.1
+offsetTop: 839
+offsetWidth: 25
+origin: "http://54.205.161.212:8080"
+outerHTML: "<a href=\"job/cicd/\" class=\"jenkins-table__link model-link inside\">cicd<button class=\"jenkins-menu-dropdown-chevron\"></button></a>"
+outerText: "cicd"
+ownerDocument: document
+parentElement: td
+parentNode: td
+part: DOMTokenList [value: '']
+password: ""
+pathname: "/job/cicd/"
+ping: ""
+port: "8080"
+protocol: "http:"
+referrerPolicy: ""
+rel: ""
+relList: DOMTokenList [value: '']
+rev: ""
+scrollHeight: 21
+scrollLeft: 0
+scrollTop: 0
+scrollWidth: 35
+search: ""
+shape: ""
+slot: ""
+spellcheck: true
+style: CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}
+tabIndex: 0
+tagName: "A"
+target: ""
+text: "cicd"
+textContent: "cicd"
+textprediction: true
+title: ""
+translate: true
+type: ""
+username: ""
+virtualKeyboardPolicy: ""
